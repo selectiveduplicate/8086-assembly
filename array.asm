@@ -1,0 +1,7 @@
+
+
+W DW 10,20,30,40
+
+MOV AX, W
+XCHG W+6, AX
+MOV W, AX o

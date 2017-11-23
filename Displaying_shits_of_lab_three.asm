@@ -1,4 +1,4 @@
-TITLE DISPLAYING_SHITS_OF_LAB_3
+TITLE DISPLAYING_PATTERNS_OF_LAB_3
 
 .MODEL SMALL
 .STACK 100H
@@ -26,7 +26,7 @@ MAIN PROC
                 MOV DL, 'Y'             
                 MOV AH, 2
                 INT 021H
-                LOOP DO                 ;keep displaying 'Y' like a retard
+                LOOP DO                 ;keep displaying 'Y' like a retard, as I've been told
             
              
             MOV DL, 'Z'
